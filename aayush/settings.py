@@ -33,7 +33,7 @@ SECRET_KEY = a+b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['aayush-choudhary.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['aayush-choudhary.herokuapp.com', 'localhost', '127.0.0.1']
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 
 # Application definition
